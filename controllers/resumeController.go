@@ -55,7 +55,7 @@ func getPresignedURL(svc *s3.S3, filepath string, filename string) (string, erro
 	urlStr, err := req.Presign(7 * time.Hour)
 
 	if err != nil {
-		return "", fmt.Errorf("getPresignedURL -", err)
+		return "", fmt.Errorf("getPresignedURL - %w", err)
 	}
 
 	return urlStr, nil

@@ -388,7 +388,7 @@ func VerifyEmail(c *gin.Context) {
 	err = initializers.DB.Delete(&matchingEntry).Error
 
 	if err != nil {
-		fmt.Printf("VerifyEmail - An error occured when trying to delete an entry:", err)
+		fmt.Println("VerifyEmail - An error occurred when trying to delete an entry:", err)
 	}
 
 }
