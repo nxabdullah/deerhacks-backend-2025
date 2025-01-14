@@ -45,7 +45,7 @@ func constructS3Key(discordId string) (string, error) {
 func getPresignedURL(svc *s3.S3, filepath string, filename string) (string, error) {
 	// Get the file and return it
 	req, _ := svc.GetObjectRequest(&s3.GetObjectInput{
-		Bucket:                     aws.String("dhapplications"),
+		Bucket:                     aws.String("deerhacks-iv-applications"),
 		Key:                        aws.String(filepath),
 		ResponseContentDisposition: aws.String(fmt.Sprintf("inline; filename=\"%s\"", filename)),
 		ResponseContentType:        aws.String("application/pdf"),
