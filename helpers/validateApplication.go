@@ -22,10 +22,6 @@ func ValidateApplication(application models.Application) (bool, []string) {
 			errList = append(errList, "ShirtSize is missing or invalid")
 		case "ResumeConsent":
 			errList = append(errList, "ResumeConsent must be given")
-		case "MlhCodeAgreement":
-			errList = append(errList, "MlhCodeAgreement must be agreed to")
-		case "MlhAuthorize":
-			errList = append(errList, "MlhAuthorize must be given")
 		default:
 			errList = append(errList, field.Field()+" field is missing or too long")
 		}
