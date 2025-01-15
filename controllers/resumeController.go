@@ -279,7 +279,7 @@ func UpdateResume(c *gin.Context) {
 
 	// Upload the file
 	_, err = svc.PutObject(&s3.PutObjectInput{
-		Bucket: aws.String("dhapplications"),
+		Bucket: aws.String("deerhacks-iv-applications"),
 		Key:    aws.String(s3key),
 		Body:   bytes.NewReader(fileData),
 	})
