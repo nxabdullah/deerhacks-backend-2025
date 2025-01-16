@@ -1,8 +1,6 @@
-
 # DeerHacks API
 
-
-[![DeerHacks Image](https://github.com/utmmcss/deerhacks/blob/c097731ac1a95f138462fbac6aa87ed0c7bfd191/public/backgrounds/collage.jpg?raw=true)](https://deerhacks.ca)
+[![DeerHacks Image](https://raw.githubusercontent.com/utmmcss/2025.deerhacks.ca/main/public/backgrounds/collage_close.jpg)](https://deerhacks.ca)
 
 > DeerHacks Hackathon 2024 Backend API
 
@@ -24,8 +22,6 @@
 
 - [Discord Developer Portal](https://discord.com/developers/docs/intro)
 
-  
-
 ## Getting Started
 
 First, run the development server:
@@ -37,8 +33,6 @@ go run main.go
 Send API requests to [http://localhost:8000](http://localhost:8000) (assuming port specified in .env file is 8000) with tools like Postman
 
 ### .env format
-
-  
 
 ```bash
 PORT=8000

@@ -143,7 +143,7 @@ func getTemplateData(context string, user *models.User, entry *models.UserEmailC
 		formattedStringHTML := fmt.Sprintf(`
 			<div style="background: #212121; padding: 3rem 1rem 1rem; box-sizing: border-box;">
 				<div style="background: #181818; color: white; width: 100%%; max-width: 500px; margin: auto; padding: 1rem; border-radius: 1rem; box-sizing: border-box;">
-					<img src="https://raw.githubusercontent.com/utmmcss/deerhacks/main/public/backgrounds/collage_close.jpg" alt="DeerHacks Banner" style="width: 100%%; height: auto;">
+					<img src="https://raw.githubusercontent.com/utmmcss/2025.deerhacks.ca/main/public/backgrounds/collage_close.jpg" alt="DeerHacks Banner" style="width: 100%%; height: auto;">
 					<h1 style="color: white;">Deer %s,</h1>
 					<h2 style="color: white;">Thanks for creating an account with us at DeerHacks!</h2>
 					<p style="color: white;">Please click the button below or this link directly: <a href="%s" style="color: white;">%s</a> to verify your email. The link will expire within 24 hours of receiving this email.</p>
