@@ -27,7 +27,7 @@ func main() {
 
 	config := cors.DefaultConfig()
 	config.AllowCredentials = true
-	config.AllowOrigins = []string{"https://deerhacks.ca", "https://2024.deerhacks.ca"}
+	config.AllowOrigins = []string{"https://www.deerhacks.ca", "https://deerhacks.ca", "https://2025.deerhacks.ca"}
 	config.ExposeHeaders = []string{"Set-Cookie"}
 	config.AllowHeaders = append(config.AllowHeaders, "Cookie")
 	if appEnv == "development" {
