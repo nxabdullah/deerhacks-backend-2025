@@ -15,14 +15,14 @@ import (
 type DiscordRole string
 
 const (
-	PendingDiscord     DiscordRole = "1087192865186254999" // Pending Email Verification
-	RegisteringDiscord DiscordRole = "1087193230157819925" // Email Verified, Registering for DeerHacks
-	AppliedDiscord     DiscordRole = "1192983763995602964" // Application Submitted
-	SelectedDiscord    DiscordRole = "1192983889807933490" // Selected to Attend DeerHacks, Pending Confirmation
-	AcceptedDiscord    DiscordRole = "1192984014571704330" // Accepted to Attend DeerHacks
-	AttendedDiscord    DiscordRole = "1192984114987548722" // Signed in at DeerHacks
-	VolunteerDiscord   DiscordRole = "1100893133581070476" // Volunteer at DeerHacks
-	DefaultDiscord     DiscordRole = "1085682655326130316" // Status unknown
+	PendingDiscord     DiscordRole = "1328545548080250993" // Pending Email Verification
+	RegisteringDiscord DiscordRole = "1328545670713442324" // Email Verified, Registering for DeerHacks
+	AppliedDiscord     DiscordRole = "1328545785868058775" // Application Submitted
+	SelectedDiscord    DiscordRole = "1328545833129345034" // Selected to Attend DeerHacks, Pending Confirmation
+	AcceptedDiscord    DiscordRole = "1328545968370614412" // Accepted to Attend DeerHacks
+	AttendedDiscord    DiscordRole = "1328546008493199380" // Signed in at DeerHacks
+	VolunteerDiscord   DiscordRole = "1328546105947979877" // Volunteer at DeerHacks
+	DefaultDiscord     DiscordRole = "1328546149338054759" // Status unknown
 )
 
 type RateLimitResponse struct {
